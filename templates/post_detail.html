@@ -6,7 +6,7 @@
 
   <figure>
     <!-- featured image -->
-    <img src="{{ post.image.url }}" class="rounded" alt="{{post.title}}" />
+    <img src="{{ post.image.url }}" class="rounded img-fluid" alt="{{post.title}}" />
   </figure>
   <div class="mt-3">
     <h1>{{post.title}}</h1>
@@ -185,3 +185,4 @@
 </div>
 {% endif %}
 {% endblock content %}
+{% block css %}{% endblock css %}

@@ -1,0 +1,10 @@
+asgiref==3.5.0
+Django==4.0.4
+django-ckeditor==6.3.2
+django-js-asset==2.0.0
+django-social-share==2.2.1
+django-taggit==2.1.0
+greenlet==1.1.2
+Pillow==9.1.0
+SQLAlchemy==1.4.35
+sqlparse==0.4.2
