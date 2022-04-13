@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-t#9kcyfg3#rgk*uua%wj97fp7y&_)&q-sd63h4te$i@6yu5xlt
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*','https://blogx-cms.herokuapp.com/']
+ALLOWED_HOSTS = ['*']
 
 SITE_ID = 1
 # Application definition
@@ -149,6 +149,7 @@ MEDIA_URL = '/media/'
                                   
 
 STATIC_URL = '/static/'
+STATIC_ROOT = 'staticfiles'
 
 MEDIA_URL = '/media/'
 
